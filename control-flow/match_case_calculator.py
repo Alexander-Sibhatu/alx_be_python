@@ -13,5 +13,6 @@ match operation:
     case "/":
         if num2 == 0:
             print("division by zero is not valid")
-        result = num1 / num2
+        else:
+            result = num1 / num2
 print(f" The result is {result}")
