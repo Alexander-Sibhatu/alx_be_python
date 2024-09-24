@@ -1,0 +1,20 @@
+def perform_operation(num1: float, num2: float, operation: str):
+    match operation:
+        case 'add':
+            result = num1 + num2
+        case 'subtract':
+            result = num1 - num2
+        case 'multiply':
+            result = num1 * num2
+        case 'divide':
+            if num2 == 0:
+                print("invalid division")
+                return None
+            else:
+                result = num1 / num2
+        case _:
+            print("invalid input")
+            return None
+
+
+    return result
