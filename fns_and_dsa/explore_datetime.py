@@ -3,10 +3,10 @@ import datetime
 # Get the current date and time
 current_date = datetime.datetime.now()
 
-formated_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
+formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
 
 def display_current_datetime():
-    print("Current date and time: ", formated_date)
+    print("Current date and time: ", formatted_date)
 
 
 display_current_datetime()
